@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Ioc", "Infra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3B64E763-5FB8-403B-94CF-29D0BF35ECB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Domain.Core", "Domain\Rabbit.Domain.Core\Rabbit.Domain.Core.csproj", "{62B79C6B-214C-45B9-B365-3B45069288BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F82CF68B-AF0B-40F3-B18F-A365C47239B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F82CF68B-AF0B-40F3-B18F-A365C47239B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F82CF68B-AF0B-40F3-B18F-A365C47239B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B79C6B-214C-45B9-B365-3B45069288BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B79C6B-214C-45B9-B365-3B45069288BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B79C6B-214C-45B9-B365-3B45069288BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B79C6B-214C-45B9-B365-3B45069288BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5B17CDAB-6066-4883-BD8A-5D61B36EF97B} = {82687EF3-5F09-41F2-9F02-B9637C1810A3}
 		{F82CF68B-AF0B-40F3-B18F-A365C47239B7} = {82687EF3-5F09-41F2-9F02-B9637C1810A3}
+		{62B79C6B-214C-45B9-B365-3B45069288BA} = {4B7A08AF-7EB6-4452-8DA0-AD159B26280C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {471EC5F9-9A65-4CF6-8C5F-1B1431239AB5}
