@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Rabbit.Banking.Domain\Rabbit.Banking.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
