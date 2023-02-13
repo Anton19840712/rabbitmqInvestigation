@@ -7,4 +7,34 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="CommandHandlers - Copy\**" />
+    <Compile Remove="Commands - Copy\**" />
+    <Compile Remove="EventHandlers - Copy\**" />
+    <Compile Remove="Events - Copy\**" />
+    <Compile Remove="Interfaces - Copy\**" />
+    <Compile Remove="Models - Copy\**" />
+    <EmbeddedResource Remove="CommandHandlers - Copy\**" />
+    <EmbeddedResource Remove="Commands - Copy\**" />
+    <EmbeddedResource Remove="EventHandlers - Copy\**" />
+    <EmbeddedResource Remove="Events - Copy\**" />
+    <EmbeddedResource Remove="Interfaces - Copy\**" />
+    <EmbeddedResource Remove="Models - Copy\**" />
+    <None Remove="CommandHandlers - Copy\**" />
+    <None Remove="Commands - Copy\**" />
+    <None Remove="EventHandlers - Copy\**" />
+    <None Remove="Events - Copy\**" />
+    <None Remove="Interfaces - Copy\**" />
+    <None Remove="Models - Copy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CommandHandlers\" />
+    <Folder Include="Commands\" />
+    <Folder Include="EventHandlers\" />
+    <Folder Include="Events\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 </Project>
