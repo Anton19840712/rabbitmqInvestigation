@@ -12,14 +12,13 @@ public class TransferEventHandler : IEventHandler<TransferCreatedEvent>
 	{
 		_transferRepository = transferRepository;
 	}
-	public Task Handle(TransferCreatedEvent @event)
+	public async Task Handle(TransferCreatedEvent @event)
 	{
-		_transferRepository.AddAsync(new TransferLog()
+		await _transferRepository.AddAsync(new TransferLog()
 		{
 			FromAccount = @event.From,
 			ToAccount = @event.To,
 			TransferAmount = @event.Amount
 		});
-		return Task.CompletedTask;
 	}
 }
