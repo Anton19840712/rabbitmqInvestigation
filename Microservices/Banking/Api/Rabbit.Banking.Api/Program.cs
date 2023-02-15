@@ -12,7 +12,7 @@ using Rabbit.Infrastructure.Bus;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// AddAsync services to the container.
 var services = builder.Services;
 services.AddControllers();
 services.AddEndpointsApiExplorer();
@@ -32,10 +32,12 @@ services.AddDbContext<BankingDbContext>(options =>
 
 services.AddMediatR(typeof(DependencyContainer));
 DependencyContainer.RegisterServices(services);
+
 services.AddSwaggerGen(c =>
 {
 	c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Banking microservice", Version = "v1" });
 });
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())

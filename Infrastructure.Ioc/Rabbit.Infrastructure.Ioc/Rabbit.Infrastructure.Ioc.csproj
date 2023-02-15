@@ -17,6 +17,8 @@
     <ProjectReference Include="..\..\Microservices\Banking\Application\Rabbit.Banking.Application\Rabbit.Banking.Application.csproj" />
     <ProjectReference Include="..\..\Microservices\Banking\Data\Rabbit.Banking.Data\Rabbit.Banking.Data.csproj" />
     <ProjectReference Include="..\..\Microservices\Banking\Domain\Rabbit.Banking.Domain\Rabbit.Banking.Domain.csproj" />
+    <ProjectReference Include="..\..\Microservices\Transfer\Application\Rabbit.Transfer.Application\Rabbit.Transfer.Application.csproj" />
+    <ProjectReference Include="..\..\Microservices\Transfer\Data\Rabbit.Transfer.Data\Rabbit.Transfer.Data.csproj" />
   </ItemGroup>
 
 </Project>
